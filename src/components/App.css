@@ -1,0 +1,10 @@
+.app-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  color: #fff;
+  background: #4E6E53;
+}
