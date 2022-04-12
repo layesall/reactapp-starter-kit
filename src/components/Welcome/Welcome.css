@@ -1,0 +1,42 @@
+.welcome-component {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column;
+  color: var(--dark);
+  background: var(--light);
+  padding: 1rem;
+  border-radius: 5px;
+  width: 500px;
+  height: 300px;
+}
+
+.welcome-component h1{
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.welcome-component h2{
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.welcome-component p{
+  font-size: 18px;
+}
+
+.welcome-component .copyright{
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.welcome-component .copyright a{
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
