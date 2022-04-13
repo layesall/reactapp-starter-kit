@@ -1,0 +1,37 @@
+/*
+---| navbar-component
+------------------------------
+*/
+.navbar-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  min-height: 5vmin;
+  padding: 5px;
+  margin-bottom: 3rem;
+}
+
+.navbar-component a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.nav-brand {
+  color: var(--light);
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.nav-link-group {
+  text-align: end;
+  width: 100%;
+}
+
+.nav-link-item {
+  font-size: 21px;
+  letter-spacing: 3px;
+  margin: 5px;
+}

@@ -6,11 +6,7 @@ export default function Welcome() {
     <div className='welcome-component'>
       <h2>Welcome in</h2>
       <h1>Nikouone</h1>
-      <p>A simple starter kit with necessary dependencies for a React project</p>
-
-      <div className='copyright'>
-        &copy; <a href='www.layesall.com'>Layesall</a> 
-      </div>
+      <p>A simple starter kit with necessary dependencies for a React project .</p>
     </div>
   );
 }
