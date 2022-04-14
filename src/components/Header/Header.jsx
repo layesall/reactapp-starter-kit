@@ -12,13 +12,13 @@ export default function Header() {
         <Navbar.Brand href="/" className='nav-brand'>
           Nikouone
         </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className='nav-toggle' />
-          <Navbar.Collapse id="basic-navbar-nav" >
-            <Nav className="ms-auto nav-link-group">
-              <Nav.Link href="/" className='nav-link-item'>Home</Nav.Link>
-              <Nav.Link href="#login" className='nav-link-item'>Login</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+        <Navbar.Collapse id="nikounav" >
+          <Nav className="me-auto nav-link-group">
+            <Nav.Link href="/" className='nav-link-item'>Home</Nav.Link>
+            <Nav.Link href="#login" className='nav-link-item'>Login</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+        <Navbar.Toggle aria-controls="nikounav" className='nav-toggle' />
       </Navbar>
 
     </header>
