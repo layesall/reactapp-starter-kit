@@ -11,10 +11,10 @@
   min-height: 5vmin;
   margin-bottom: 3rem;
   z-index: 100;
+  padding: 10px;
 }
 
 .navbar {
-  color: var(--light);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +33,6 @@
 .nav-link-group {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   width: 100%;
 }
 
@@ -45,7 +44,11 @@
   font-weight: bolder !important;
   letter-spacing: 3px;
   margin: 5px;
+}
 
+.nav-link-icon {
+  margin-right: 5px;
+  font-size: 2rem;
 }
 
 .nav-toggle {
@@ -55,19 +58,4 @@
 .logo {
   width: 200px;
   object-fit: cover;
-}
-
-
-@media screen and (max-width: 768px ) {
-  .navbar {
-    justify-content: space-between;
-    flex-flow: row;
-    padding: 1rem;
-  }
-
-  .nav-link-group {
-    text-align: start;
-    width: 100%;
-    background: #33333345;
-  }
 }
